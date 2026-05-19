@@ -44,6 +44,7 @@ export function LoginForm({
           <Input
             id="password"
             type="password"
+            placeholder="*******"
             required
             className="bg-background"
           />
@@ -54,7 +55,7 @@ export function LoginForm({
 
         <FieldDescription className="text-center">
           ¿Aún no tienes cuenta?  
-          <a href="#" className="underline underline-offset-4 ml-3">
+          <a href="/registro" className="underline underline-offset-4 ml-3">
             Crear cuenta
           </a>
         </FieldDescription>
